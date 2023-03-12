@@ -5,7 +5,7 @@ st.set_page_config(page_title="Safety Stock",
                    page_icon=":chart_with_upwards_trend:")
 st.title("Sample Analysis")
 
-st.write("## Upload Dataset")
+st.write("## Upload a Dataset")
 url = st.file_uploader("")
 
 if url:
